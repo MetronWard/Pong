@@ -133,12 +133,6 @@ class Pong:
         self._create_components()
         self.settings.sleep = 0.07
 
-
-# todo initialize the screen with all its features
-# todo create a paddles class, with methods; move_up and move_down
-# todo create a ball class with methods bounce and wall
-
-
 if __name__ == '__main__':
     pong = Pong()
     pong.run_game()
